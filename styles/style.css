@@ -36,7 +36,7 @@
 
 .content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .two_columns {
@@ -89,4 +89,90 @@
 }
 .techniques {
 
+}
+
+.digits {
+  border: red 1px solid;
+
+}
+
+.section-title {
+  border: red 1px solid;
+  text-align: center;
+  align-self: center;
+  margin: 100px auto 0;
+  width: 60%;
+}
+
+.title_digits {
+  line-height: 1.15;
+  font-size: 60px;
+  font-family: 'Inter-SemiBold', Arial, sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+.section-subtitle{
+  border: red 1px solid;
+  text-align: center;
+  align-self: center;
+  margin: 20px auto 0;
+  width: 60%;
+}
+
+.subtitle_digits {
+  line-height: 34px;
+  font-size: 24px;
+  font-family: 'Inter-Regular', Arial, sans-serif;
+  font-weight: normal;
+  margin: 0;
+}
+
+.table {
+  display: flex;
+  border: red 1px solid;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto 100px;
+  min-height: 50px;
+  width: 1100px;
+}
+
+.row-cell {
+  border: red 1px solid;
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0 0;
+  min-height: 20px;
+  justify-content: space-between;
+}
+
+.cell {
+  border: red 1px solid;
+  display: flex;
+  min-height: 10px;
+  width: 250px;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.heading {
+  border: red 1px solid;
+  line-height: 1.15;
+  font-size: 24px;
+  font-family: 'Inter-SemiBold', Arial, sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+.text {
+  border: red 1px solid;
+  line-height: 1.2;
+  font-size: 18px;
+  font-family: 'Inter-Regular', Arial, sans-serif;
+  font-weight: normal;
+  margin: 20px 0 0;
+}
+
+p {
+  margin: 0;
 }
