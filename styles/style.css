@@ -9,6 +9,10 @@
   font-family: 'Inter', Arial, sans-serif;
 }
 
+p {
+  margin: 0;
+}
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -26,7 +30,7 @@
   background-repeat: no-repeat;
 }
 
-.logo_place_header {
+.header__logo_place {
   background-image: url(../images/logo_place_header.svg);
   position: absolute;
   top: 30px;
@@ -41,6 +45,7 @@
   font-family: 'Inter-SemiBold', Arial, sans-serif;
   font-weight: 700;
   font-size: 102px;
+  z-index: 2;
 }
 
 .header__subtitle {
@@ -50,6 +55,7 @@
   width: 388px;
   line-height: 25px;
   font-size: 18px;
+  z-index: 2;
 }
 
 .header__link {
@@ -74,35 +80,26 @@
   top: 64px;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-
 .content {
   display: flex;
   flex-direction: column;
 }
 
-.two_columns {
+.two-columns {
   border: red 1px solid;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
   width: 80%;
   margin: 100px auto 0;
 }
 
-.brief {
+.two-columns__brief {
   border: red 1px solid;
   width: 175px;
 }
 
-.brief-header {
+.two-clomuns__brief_header {
   margin: 0;
   color: #2f80ed;
   line-height: 1.2;
@@ -111,14 +108,15 @@
   font-size: 18px;
 }
 
-.main-text {
+.two-columns__main-text {
   border: red 1px solid;
   flex-direction: column;
   min-width: 784px;
   width:80%
+
 }
 
-.paragraph {
+.two-columns__paragraph {
   border: red 1px solid;
   font-family: 'Inter-Regular', Arial, sans-serif;
   font-weight: normal;
@@ -126,11 +124,11 @@
   margin: 0;
 }
 
-.indent_paragraph {
+.two-columns__paragraph_indent {
   margin: 30px 0;
 }
 
-.span-accent {
+.two-columns__span_accent {
   font-family: 'Inter-SemiBold', Arial, sans-serif;
   font-weight: normal;
   font-size: 24px;
@@ -150,14 +148,15 @@
   align-self: center;
   margin: 100px auto 0;
   width: 60%;
+
 }
 
-.title_digits {
+.section-title__header {
+  margin: 0;
   line-height: 1.15;
   font-size: 60px;
   font-family: 'Inter-SemiBold', Arial, sans-serif;
   font-weight: 700;
-  margin: 0;
 }
 
 .section-subtitle{
@@ -168,7 +167,8 @@
   width: 60%;
 }
 
-.subtitle_digits {
+.section-subtitle__header
+{
   line-height: 34px;
   font-size: 24px;
   font-family: 'Inter-Regular', Arial, sans-serif;
@@ -179,32 +179,27 @@
 .table {
   display: flex;
   border: red 1px solid;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   margin: 0 auto 100px;
   min-height: 50px;
   width: 1100px;
+  flex-wrap: wrap;
 }
 
-.row-cell {
-  border: red 1px solid;
-  display: flex;
-  flex-direction: row;
-  margin: 20px 0 0;
-  min-height: 20px;
-  justify-content: space-between;
-}
 
-.cell {
+
+.table__cell {
   border: red 1px solid;
   display: flex;
   min-height: 10px;
-  width: 250px;
   justify-content: flex-start;
   flex-direction: column;
+  margin: 20px 0 0;
+  width: 250px;
 }
 
-.heading {
+.table__heading {
   border: red 1px solid;
   line-height: 1.15;
   font-size: 24px;
@@ -212,7 +207,7 @@
   font-weight: 700;
   margin: 0;
 }
-.text {
+.table__text {
   border: red 1px solid;
   line-height: 1.2;
   font-size: 18px;
@@ -221,9 +216,67 @@
   margin: 20px 0 0;
 }
 
-p {
- margin: 0;
- }
+.kaufman {
+  background-color: #1f1f1f;
+}
+
+.section-title_theme_dark {
+  color: white;
+  margin-top: 90px;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+}
+
+.table_theme_dark {
+  margin-bottom: 90px;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-top: 80px;
+}
+
+.resources {
+
+}
+
+.resources__logo-zone {
+  border: red 1px solid;
+  display: flex;
+  width: 1100px;
+  min-height: 10px;
+  margin: 80px auto 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.resources__logo {
+  border: red 1px solid;
+  margin: 0;
+  width: 270px;
+  height: 38px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.resources__logo_img_arz {
+  background-image: url(/images/logo/resources-arzamas.svg);
+}
+
+.resources__logo_img_n1 {
+  background-image: url(/images/logo/resources-n1.svg);
+}
+
+.resources__logo_img_polka {
+  background-image: url(/images/logo/resources-polka.svg);
+}
+
+.resources__logo_img_strelka {
+  background-image: url(/images/logo/resources-strelka.svg);
+}
 
 .footer {
   border: red 1px solid;
