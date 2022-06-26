@@ -1,0 +1,10 @@
+.header__title {
+  align-self: center;
+  width: 730px;
+  margin-left: 64px;
+  line-height: 96px;
+  font-family: 'Inter-SemiBold', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 102px;
+  z-index: 2;
+}
