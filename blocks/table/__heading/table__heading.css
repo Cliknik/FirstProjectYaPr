@@ -1,0 +1,8 @@
+.table__heading {
+  border: red 1px solid;
+  line-height: 1.15;
+  font-size: 24px;
+  font-family: 'Inter-SemiBold', Arial, sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
