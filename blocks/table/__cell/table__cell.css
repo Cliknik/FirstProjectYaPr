@@ -1,5 +1,4 @@
 .table__cell {
-  border: red 1px solid;
   display: flex;
   min-height: 10px;
   justify-content: flex-start;

@@ -1,5 +1,4 @@
 .two-columns {
-  border: red 1px solid;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

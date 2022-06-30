@@ -1,6 +1,7 @@
 .table {
+  position: relative;
+  z-index: 2;
   display: flex;
-  border: red 1px solid;
   flex-direction: row;
   justify-content: space-between;
   margin: 0 auto 100px;
