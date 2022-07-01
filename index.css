@@ -19,8 +19,7 @@
 @import url(./blocks/two-columns/__header/two-columns__header.css);
 @import url(./blocks/two-columns/__main-text/two-columns__main-text.css);
 @import url(./blocks/two-columns/__paragraph/two-columns__paragraph.css);
-@import url(./blocks/two-columns/__paragraph/_indent/two-columns__paragraph_indent.css);
-@import url(./blocks/two-columns/__span/_accent_bold/two-columns__span_accent_bold.css);
+@import url(blocks/two-columns/__span/_accent/two-columns__span_accent.css);
 
 @import url(./blocks/digits/digits.css);
 
